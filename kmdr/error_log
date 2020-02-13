@@ -1,0 +1,157 @@
+[13-Dec-2019 11:47:43 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/costumer_table.php on line 427
+[13-Dec-2019 11:47:43 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 34
+[13-Dec-2019 11:48:04 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/costumer_table.php on line 427
+[13-Dec-2019 11:48:04 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 34
+[13-Dec-2019 11:51:35 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/costumer_table.php on line 427
+[13-Dec-2019 11:51:35 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 34
+[13-Dec-2019 13:56:27 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/costumerprofile.php on line 380
+[13-Dec-2019 13:56:27 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 108
+[13-Dec-2019 13:56:38 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/costumerprofile.php on line 380
+[13-Dec-2019 13:56:38 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 108
+[18-Dec-2019 15:23:34 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'mobile_no'' in /home/omcropscience/public_html/KOCM/db/dbOperation.php:142
+Stack trace:
+#0 /home/omcropscience/public_html/KOCM/db/dbOperation.php(142): PDOStatement->execute()
+#1 /home/omcropscience/public_html/KOCM/admin/workersignup.php(404): WorkerData->insertWorkerData('', '', '', '', '2019/12/18 03:2...')
+#2 {main}
+  thrown in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 142
+[18-Dec-2019 15:23:43 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'mobile_no'' in /home/omcropscience/public_html/KOCM/db/dbOperation.php:142
+Stack trace:
+#0 /home/omcropscience/public_html/KOCM/db/dbOperation.php(142): PDOStatement->execute()
+#1 /home/omcropscience/public_html/KOCM/admin/workersignup.php(404): WorkerData->insertWorkerData('', '', '', '', '2019/12/18 03:2...')
+#2 {main}
+  thrown in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 142
+[18-Dec-2019 15:24:12 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7974453185' for key 'mobile_no'' in /home/omcropscience/public_html/KOCM/db/dbOperation.php:142
+Stack trace:
+#0 /home/omcropscience/public_html/KOCM/db/dbOperation.php(142): PDOStatement->execute()
+#1 /home/omcropscience/public_html/KOCM/admin/workersignup.php(404): WorkerData->insertWorkerData('', '', '7974453185', '', '2019/12/18 03:2...')
+#2 {main}
+  thrown in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 142
+[18-Dec-2019 15:28:56 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7974453185' for key 'mobile_no'' in /home/omcropscience/public_html/KOCM/db/dbOperation.php:142
+Stack trace:
+#0 /home/omcropscience/public_html/KOCM/db/dbOperation.php(142): PDOStatement->execute()
+#1 /home/omcropscience/public_html/KOCM/admin/workersignup.php(404): WorkerData->insertWorkerData('manoj singh', 'manoj', '7974453185', '123456', '2019/12/18 03:2...')
+#2 {main}
+  thrown in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 142
+[18-Dec-2019 15:36:02 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7974453185' for key 'mobile_no'' in /home/omcropscience/public_html/KOCM/db/dbOperation.php:142
+Stack trace:
+#0 /home/omcropscience/public_html/KOCM/db/dbOperation.php(142): PDOStatement->execute()
+#1 /home/omcropscience/public_html/KOCM/admin/workersignup.php(404): WorkerData->insertWorkerData('arun singh', 'arun', '7974453185', '123456', '2019/12/18 03:3...')
+#2 {main}
+  thrown in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 142
+[18-Dec-2019 16:13:43 Asia/Kolkata] PHP Fatal error:  Call to undefined method WorkerData::workerTable() in /home/omcropscience/public_html/KOCM/admin/workertable.php on line 395
+[21-Dec-2019 17:53:24 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/ajax.php on line 9
+[21-Dec-2019 17:53:24 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 60
+[21-Dec-2019 17:53:25 Asia/Kolkata] PHP Notice:  Undefined variable: DB_con in /home/omcropscience/public_html/KOCM/admin/ajax.php on line 9
+[21-Dec-2019 17:53:25 Asia/Kolkata] PHP Fatal error:  Call to a member function prepare() on null in /home/omcropscience/public_html/KOCM/db/dbOperation.php on line 60
+[21-Dec-2019 18:07:28 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:07:28 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:07:51 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:07:51 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:08:30 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:08:30 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:08:52 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:08:52 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:09:01 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:09:01 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:10 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:10 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:12 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:12 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:19 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:19 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:25 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:25 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:47 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:47 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:51 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:51 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:10:56 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:10:56 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:20:35 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:20:35 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:20:36 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:20:36 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:20:37 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:20:37 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:20:37 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:20:37 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:20:38 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:20:38 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:20:38 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:20:38 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:17 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:17 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:55 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:55 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:55 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:55 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:57 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:57 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:57 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:57 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:58 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:58 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:21:59 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:21:59 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:16 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:16 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:16 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:16 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:16 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:16 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:29 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:29 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:29 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:29 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:30 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:30 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:30 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:30 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:37 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:37 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:40 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:40 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:40 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:40 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:40 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:40 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:22:49 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:22:49 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:18 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:18 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:20 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:20 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:32 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:32 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:33 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:33 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:38 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:38 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:49 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:49 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:50 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:50 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:53 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:53 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:24:58 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:24:58 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:09 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:09 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:14 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:14 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:15 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:15 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:20 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:20 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:20 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:20 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:26 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:26 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:38 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:38 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:47 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:47 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:50 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:50 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
+[21-Dec-2019 18:25:56 Asia/Kolkata] PHP Notice:  Undefined index: spouse_Dob in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 11
+[21-Dec-2019 18:25:56 Asia/Kolkata] PHP Notice:  Undefined index: state in /home/omcropscience/public_html/KOCM/admin/ajax2.php on line 18
