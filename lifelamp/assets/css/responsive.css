@@ -1,0 +1,246 @@
+/********************** Media Query *********************************/
+@media (max-width:1199px) {
+
+
+}
+
+@media (max-width: 991px) {
+.feature-icon .f_content h5 {
+    font-size: 16px;
+}
+.section_heading h2 {
+    line-height: 46px;
+}
+.review-v1 {
+    padding-right: 18%;
+}
+ul.navbar-nav .nav-item {
+    margin-left: 5px;
+}
+.navbar-brand img {
+    max-width: 135px;
+}
+.lifelamp_f_div h2 {
+    line-height: 40px;
+}
+ul.p_uline li a {
+    min-width: 180px;
+}
+.join_slide_left h4 {
+    font-size: 24px;
+    line-height: 30px;
+}
+}
+
+
+@media (max-width: 767px) {
+.impact_resident h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+.testimonials-carousel {
+    padding-left: 0;
+}
+.useful_links {
+    padding-left: 0;
+}
+.featured_footer{
+    margin-top: 40px;
+}
+.social_media {
+    text-align: left !important;
+    margin-top: 10px;
+}
+.section_heading h2 {
+    line-height: 38px;
+    font-size: 26px;
+}
+.testimonials h2 {
+    position: relative;
+    left: 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.review-v1-avatar-wrapper {
+    display: block;
+    background-image: none;
+}
+.review-v1-avatar-wrapper img {
+    margin: 0 auto;
+}
+#header nav.navbar {
+    padding: 8px 0px;
+}
+#header .navbar-brand {
+    padding-left: 15px;
+}
+.navbar-dark .navbar-toggler {
+    margin-right: 15px;
+}
+div#collapsibleNavbar {
+    background: #000000b8;
+    margin-top: 8px;
+}
+#header nav .navbar-nav a {
+    padding: 12px 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+ul.navbar-nav .nav-item {
+    margin-left: 0;
+}
+.camera_caption h1 {
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.lead_txt_s {
+    font-size: 15px;
+    line-height: 24px;
+}
+.camera_wrap {
+    height: 500px !important;
+}
+.camera_pag {
+    position: absolute;
+    top: auto;
+    right: 0;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    z-index: 9;
+    bottom: 20px;
+    text-align: center;
+    left: 0;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+    display: inline-block;
+    margin: 0px 6px;
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+    text-align: center;
+}
+.review-v1 {
+    padding-right: 0;
+    display: block;
+    text-align: center;
+}
+.review-v1-content {
+    display: block;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.testimonials-carousel .slick-prev, .testimonials-carousel .slick-next {
+    bottom: -80px;
+}
+.testimonials-carousel .slick-next {
+    right: 0;
+    left: auto;
+}
+.map {
+    margin-top: 40px;
+}
+.cont_grid {
+    margin-bottom: 60px;
+}
+.contact_address {
+    padding: 0;
+}
+.distributors_iframe{
+    height: 400px;
+}
+.lifelamp_f_img {
+    float: none;
+    margin-left: 0;
+    max-width: 100%;
+}
+.product_list_img {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.product_list_content {
+    width: 100%;
+    display: block;
+    vertical-align: top;
+    padding-left: 0;
+    margin-top: 20px;
+}
+.product_list_view .product_list_grid {
+    display: block;
+    padding: 15px;
+}
+ul.p_uline li{
+    width: 100%;
+}
+ul.p_uline li a {
+    min-width: 100%;
+    margin: 7px 0px;
+}
+.join_current_product .join_current_grid:nth-child(odd) .join_slide_left {
+    padding-right: 0;
+}
+.join_slide_left {
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    order: 2;
+    margin-top: 20px;
+}
+.join_slide_right {
+    width: 100%;
+    display: block;
+    order: 1;
+}
+.join_slide_right:before {
+    left: 10px;
+    top: -10px;
+    border: 3px solid #e78a1c;
+}
+.join_current_grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.join_current_product .join_current_grid:nth-child(even) .join_slide_left {
+    padding-left: 0;
+}
+}
+
+@media (max-width: 580px){
+.banner h2 {
+    line-height: 36px;
+    font-size: 26px;
+}
+
+}
+
+@media (max-width: 520px){
+.about_us h2 {
+    line-height: 32px;
+    font-size: 26px;
+}
+.liflamp_innovation h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.inn_img {
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+.inn_content {
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+.inn_content:after{
+    content: none;
+}
+.innovation_grid {
+    margin-bottom: 0;
+}
+}
+
+@media (max-width: 360px){
+
+}
