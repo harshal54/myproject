@@ -1120,16 +1120,16 @@ now override the 3.3 new styles for modern browsers & apply opacity
 .fade-carousel .slides .slide-4,
 .fade-carousel .slides .slide-5 {
     height: 100%;
-    background-size: cover;
+    background-size: cover !important;
     /*  background-position: center center;*/
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed!important;
+    background-position: center!important;
 }
 
 .fade-carousel .slides .slide-1 {
-    background-image: url(../img/ga11.jpg);
-    background-size: cover;
+    
+    background-size: cover !important;
 }
 
 .fade-carousel .slides .slide-2 {
@@ -2031,13 +2031,44 @@ ul.contact_address_block {
     font-size: 13px;
     font-weight: 600;
 }
-
-
-
+.pagee{
+   font-size: larger;
+    font-family: -webkit-body;
+    float: right;
+}
+.pagee .page-numbers.current {
+    background-color: #412ac0;
+    color: white;
+    padding: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 900;
+}
 
 /*============================================================
     #footer
 ============================================================*/
+   *{
+  box-sizing: border-box;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 10px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 10px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
 #footer {
     position: relative;
     background-color: #111;
@@ -2158,10 +2189,12 @@ font-family: 'Montserrat', sans-serif;
 
 .useful-links ul {
     padding-left: 0px;
+
 }
 
 
 .useful-links li {
+
     padding-bottom: 4px;
 }
 
