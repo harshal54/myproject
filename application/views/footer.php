@@ -1,86 +1,40 @@
-<!--Start footer-->
-  <footer class="footer">
-      <div class="container">
-        <div class="text-center">
-          Copyright © 2018 Bulona Admin
-        </div>
-      </div>
-    </footer>
-  <!--End footer-->
-  
-  <!--start color switcher-->
-   <div class="right-sidebar">
-    <div class="switcher-icon">
-      <i class="zmdi zmdi-settings zmdi-hc-spin"></i>
-    </div>
-    <div class="right-sidebar-content">
 
-      <p class="mb-0">Gaussion Texture</p>
-      <hr>
-      
-      <ul class="switcher">
-        <li id="theme1"></li>
-        <li id="theme2"></li>
-        <li id="theme3"></li>
-        <li id="theme4"></li>
-        <li id="theme5"></li>
-        <li id="theme6"></li>
-      </ul>
+</div>
+<!-- ./wrapper -->
 
-      <p class="mb-0">Gradient Background</p>
-      <hr>
-      
-      <ul class="switcher">
-        <li id="theme7"></li>
-        <li id="theme8"></li>
-        <li id="theme9"></li>
-        <li id="theme10"></li>
-        <li id="theme11"></li>
-        <li id="theme12"></li>
-      </ul>
-      
-     </div>
-   </div>
-  <!--end color cwitcher-->
-   
-  </div><!--End wrapper-->
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/popper.min.js"></script>
-  <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
-  
- <!-- simplebar js -->
-  <script src="<?php echo base_url();?>assets/plugins/simplebar/js/simplebar.js"></script>
-  <!-- sidebar-menu js -->
-  <script src="<?php echo base_url();?>assets/js/sidebar-menu.js"></script>
-  <!-- loader scripts -->
-  <script src="<?php echo base_url();?>assets/js/jquery.loading-indicator.html"></script>
-  <!-- Custom scripts -->
-  <script src="<?php echo base_url();?>assets/js/app-script.js"></script>
-  <!-- Chart js -->
-  
-  <script src="<?php echo base_url();?>assets/plugins/Chart.js/Chart.min.js"></script>
-  <!-- Vector map JavaScript -->
-  <script src="<?php echo base_url();?>assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
-  <script src="<?php echo base_url();?>assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
-  <!-- Easy Pie Chart JS -->
-  <script src="<?php echo base_url();?>assets/plugins/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-  <!-- Sparkline JS -->
-  <script src="<?php echo base_url();?>assets/plugins/sparkline-charts/jquery.sparkline.min.js"></script>
-  <script src="<?php echo base_url();?>assets/plugins/jquery-knob/excanvas.js"></script>
-  <script src="<?php echo base_url();?>assets/plugins/jquery-knob/jquery.knob.js"></script>
-    
-    <script>
-        $(function() {
-            $(".knob").knob();
-        });
-    </script>
-  <!-- Index js -->
-  <script src="<?php echo base_url();?>assets/js/index.js"></script>
-
-  
+<!-- jQuery -->
+<!-- <script src="<?php echo base_url(); ?>assets/plugins/jquery/jquery.min.js"></script> -->
+<!-- jQuery UI 1.11.4 -->
+<!-- <script src="<?php echo base_url(); ?>assets/plugins/jquery-ui/jquery-ui.min.js"></script> -->
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="<?php echo base_url(); ?>assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="<?php echo base_url(); ?>assets/plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="<?php echo base_url(); ?>assets/plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="<?php echo base_url(); ?>assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="<?php echo base_url(); ?>assets/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="<?php echo base_url(); ?>assets/plugins/moment/moment.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="<?php echo base_url(); ?>assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="<?php echo base_url(); ?>assets/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="<?php echo base_url(); ?>assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="<?php echo base_url(); ?>assets/dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="<?php echo base_url(); ?>assets/dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="<?php echo base_url(); ?>assets/dist/js/pages/dashboard.js"></script>
 </body>
-
-<!-- Mirrored from codervent.com/bulona/demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Feb 2019 06:55:15 GMT -->
 </html>

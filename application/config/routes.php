@@ -49,8 +49,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'Users/login';
 $route['404_override'] = '';
+$route['add-student'] = 'mycontroller/add_student';
+$route['show-student'] = 'mycontroller/show_student';
+$route['add-courses'] = 'mycontroller/add_courses';
+$route['show-courses'] = 'mycontroller/show_courses';
+$route['add-fees'] = 'mycontroller/add_fees';
+$route['show-fees'] = 'mycontroller/show_fees';
+$route['InsertStudent'] = 'mycontroller/insertstudentdata';
+$route['Insertcourse'] = 'mycontroller/insertcourse';
+$route['InsertFees'] = 'mycontroller/insertfees';
+$route['deleteStudent/(:any)'] = 'mycontroller/deletestudent/$1';
+$route['send/(:any)'] = 'Users/send/$1';
+$route['googlemap']='mycontroller/google_map';
+$route['calendar']='mycontroller/calendar';
+$route['updateStudent/(:any)'] = 'mycontroller/updatestudent/$1';
+$route['products']='Products/products';
+$route['buy/(:any)']='Products/buy/$1';
+$route['success']='Products/success';
+$route['cancel']='Products/cancel';
+$route['ipn']='Products/ipn';
+$route['Chat_controller/(:any)']='chat_controller/chatBox/$1';
+$route['updateData/(:any)'] = 'mycontroller/updateStudentdata/$1';
+$route['Signature']='signature_controller';
+$route['forgotpassword']='Users/forgotpassword';
+$route['createnewaccount']='Users/register';
+$route['Signature/(:any)']='signature_controller/insert_single_signature/$1';
 $route['translate_uri_dashes'] = FALSE;
-$route['Logincheck'] ='Login/login';
-$route['logoutcheck'] ='Login/logout';
